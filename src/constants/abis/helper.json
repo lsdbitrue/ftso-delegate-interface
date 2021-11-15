@@ -1,0 +1,113 @@
+[
+  {
+    "inputs": [],
+    "name": "FtsoManager",
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "FtsoRewardManager",
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "Version",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "currentEpoch",
+    "outputs": [
+      { "internalType": "uint256", "name": "", "type": "uint256" },
+      { "internalType": "uint256", "name": "", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "owner", "type": "address" }
+    ],
+    "name": "delegateInfo",
+    "outputs": [
+      {
+        "components": [
+          { "internalType": "uint256", "name": "balance", "type": "uint256" },
+          { "internalType": "uint256", "name": "wrapped", "type": "uint256" },
+          {
+            "internalType": "uint256",
+            "name": "delegationMode",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "unclaimedAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "pendingAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "currentRewardEpoch",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "epochDuration",
+            "type": "uint256"
+          },
+          { "internalType": "bool", "name": "claimActive", "type": "bool" },
+          {
+            "internalType": "address[]",
+            "name": "delegateAddresses",
+            "type": "address[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "delegateBips",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "unclaimedEpochs",
+            "type": "uint256[]"
+          }
+        ],
+        "internalType": "struct SongbirdHelper.DelegateInfo",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address[]", "name": "validators", "type": "address[]" }
+    ],
+    "name": "votePowers",
+    "outputs": [
+      { "internalType": "uint256", "name": "totalPowers", "type": "uint256" },
+      { "internalType": "uint256[]", "name": "powers", "type": "uint256[]" },
+      { "internalType": "uint256[]", "name": "balances", "type": "uint256[]" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "wSGB",
+    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
