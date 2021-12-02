@@ -620,16 +620,16 @@
       "name": "Bitrue",
       "description": "Bitrue is the most secure and advanced online platform for buying, selling, transferring, and storing digital currency.",
       "url": "https://bitrue.com",
-      "address": "0x59209585d87F5400209E93b18AF513Fa2f6cdeA9",
-      "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x59209585d87F5400209E93b18AF513Fa2f6cdeA9.png"
+      "address": "0x4c97f55d2Ed9C84ECc4Db836d5Fc4F191deA30aE",
+      "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4c97f55d2Ed9C84ECc4Db836d5Fc4F191deA30aE.png"
     },
     {
       "chainId": 14,
       "name": "Bitrue",
       "description": "Bitrue is the most secure and advanced online platform for buying, selling, transferring, and storing digital currency.",
       "url": "https://bitrue.com",
-      "address": "0x59209585d87F5400209E93b18AF513Fa2f6cdeA9",
-      "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x59209585d87F5400209E93b18AF513Fa2f6cdeA9.png"
+      "address": "0x4c97f55d2Ed9C84ECc4Db836d5Fc4F191deA30aE",
+      "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4c97f55d2Ed9C84ECc4Db836d5Fc4F191deA30aE.png"
     }
   ]
 }
